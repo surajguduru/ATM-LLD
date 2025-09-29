@@ -102,8 +102,7 @@ class TransactionComplete
 
 
 %% Relationships
-ATM --> ATMController
-ATM --> Keyboard
+ATMController --> Keyboard
 ATMController --> CardReader
 ATMController --> CashDispenser
 ATMController --> BankService
